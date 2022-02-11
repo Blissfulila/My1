@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    color: #fff;
+
+    &.overflow-hidden {
+        overflow: hidden;
+    }
+}
+
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+b,
+strong {
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Harabara, sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 15px;
+
+}
+
+h1 {
+    color: #194484;
+    font-size: 44px;
+    line-height: 60px;
+
+    /* or 136% */
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+h3 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.05em;
+    text-align: left;
+
+    @media (max-width: 576px) {
+        font-size: 18px;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+._start {
+    text-align: start;
+}
+
+._center {
+    text-align: center;
+}
+
+._end {
+    text-align: end;
+}
+
+._white {
+    background-color: #fff;
+}
+
+._green {
+    background-color: #06B25F;
+}
+
+._light_green {
+    background-color: #66D6A0;
+}
+
+._light_blue {
+    background-color: #84B5FF;
+}
+
+._blue_medium1 {
+    background-color: #276ED8;
+}
+
+._blue_medium2 {
+    background-color: #0D6EB7;
+}
+
+._dark_blue {
+    background-color: #194484;
+}
+
+._very-dark-blue {
+    background-color: var(--very-dark-blue)
+}
+
+._dark-gray {
+    background-color: #242424;
+}
+
+._black {
+    background-color: #000;
+}
+
+// Сетка
+._row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+._col {
+    padding: 0 15px 10px;
+}
+
+._size_6 {
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
+    max-width: 100%;
+}
+
+._size_5 {
+    -ms-flex: 1 1 83.333333%;
+    flex: 1 1 83.333333%;
+    max-width: 83.333333%;
+}
+
+._size_4 {
+    -ms-flex: 1 1 66.666667%;
+    flex: 1 1 66.666667%;
+    max-width: 66.666667%;
+}
+
+._size_3 {
+    -ms-flex: 1 1 50%;
+    flex: 1 1 50%;
+    max-width: 50%;
+}
+
+._size_2 {
+    -ms-flex: 1 1 33.333333%;
+    flex: 1 1 33.333333%;
+    max-width: 33.333333%;
+}
+
+._size_1 {
+    -ms-flex: 1 1 16.666667%;
+    flex: 1 1 16.666667%;
+    max-width: 16.666667%;
+}
+
+._w-100 {
+    width: 100%;
+}
+
+._hidden {
+    display: none;
+}

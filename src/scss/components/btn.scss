@@ -1,0 +1,35 @@
+.btn {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    line-height: 1;
+    width: 160px;
+    padding: 9px 0;
+    color: #fff;
+    text-transform: uppercase;
+
+    &_green {
+        transition: .3s;
+        border: 2px solid #06B25F;
+        background-color: #06B25F;
+        border-radius: 6px;
+        text-align: center;
+
+        &:hover {
+            background: #242424;
+        }
+
+        &:active {
+            background: #242424;
+        }
+    }
+
+    &_white {
+        text-align: center;
+        transition: .3s;
+        border: 2px solid #FFFFFF;
+        border-radius: 6px;
+
+        &:hover {
+        }
+    }
+}

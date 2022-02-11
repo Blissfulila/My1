@@ -1,0 +1,17 @@
+
+
+// Вставка картинок (псевдоклассом)
+
+%insert-contacts {
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+    top: 50%;
+    left: 0;
+    background-position: center right;
+    transform: translateY(-50%);
+    background-size: 18px;
+    pointer-events: none;
+}

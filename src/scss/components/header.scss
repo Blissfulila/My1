@@ -1,0 +1,59 @@
+header {
+    background-image: url("/src/images/header/background.png");
+    background-repeat: no-repeat;
+    padding-bottom: 430px;
+}
+
+.menu {
+
+    &_background {
+        background: rgba(33, 33, 33, 0.3);
+        box-shadow: 0 4px 12px rgba(24, 9, 96, 0.1);
+    }
+
+    ul {
+        display: flex;
+        font-weight: 700;
+
+
+        li {
+            padding: 20px;
+            line-height: 36px;
+        }
+    }
+
+    &-logo {
+
+    }
+
+    &_flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+        margin-bottom: 150px;
+    }
+
+
+    &_btn {
+        display: flex;
+    }
+}
+
+.main {
+
+    &_block {
+        width: 40%;
+    }
+
+    &_text {
+        line-height: 26px;
+        margin-bottom: 30px;
+    }
+
+
+    &_btn {
+        display: flex;
+        gap: 20px;
+    }
+}
